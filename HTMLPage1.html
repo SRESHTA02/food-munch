@@ -1,0 +1,210 @@
+﻿!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://makerspacenitrr.files.wordpress.com/2022/08/whatsapp-image-2022-08-22-at-5.17.26-pm.jpeg?w=64&h=64" class="food-munch-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        About Us
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Achievements & activies</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Gallery</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+        </div>
+    </div>
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">About Us?</h1>
+                    <p class="wcu-section-description">
+                        Makerspace at NIT Raipur is set up on the theme of Open Community Technology Development Culture to promote mainly frugal innovations. It is set up to provide working ecosystem to prospective entrepreneurs of NIT Raipur. Once the raw and innovative ideas will start taking shapes, they will be incubated in a proper system of Technology Business Incubator (TBI).
+                    </p>
+                </div>
+                <div class="col-12 ">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="data:image/png;base64,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" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Benefits of Makerspace</h1>
+                        <p class="wcu-card-description">
+                            It will help to promote the startups. This will help students to understand challenges of being an entrepreneur and provide them with solutions and resources to build their startup/project from scratch.It will be made open to local communities for technology penetration and accelerate culture of innovations. Encourage students for Inter-Disciplinary representation and forming teams and bringing the expertise to a singular platform. Cost efficient manufacturing of lab equipment like 3-d printers, and other DIY projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Achievements & activies</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="C:\Users\rames\OneDrive\Desktop\makerspace\WhatsApp Image 2023-03-31 at 11.05.46.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Ideathon</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#101011" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://makerspacenitrr.files.wordpress.com/2022/08/whatsapp-image-2022-08-25-at-6.56.47-am.jpeg?w=1024" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Challenges in developing Bio-Medical Equipment</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#101011" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://makerspacenitrr.files.wordpress.com/2022/08/whatsapp-image-2022-08-25-at-6.56.49-am.jpeg?w=1024" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Data and Innovation - Event in collaboration with Entrepreneurship cell</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#101011" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://makerspacenitrr.files.wordpress.com/2022/08/whatsapp-image-2022-08-25-at-6.45.49-am.jpeg?w=479" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Entrepreneurship for Engineering - Orientation program organized by Makerspace in
+                            collaboration with Innovation cell and Entrepreneurship cell</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#101011" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thanking-customers-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h1 class="thanking-customers-section-heading">
+                    DOWN THE MEMORY LANE
+                </h1>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="C:\Users\rames\OneDrive\Desktop\makerspace\WhatsApp Image 2023-03-31 at 11.05.47.jpg"" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://makerspacenitrr.files.wordpress.com/2022/08/whatsapp-image-2022-08-25-at-6.56.54-am-1.jpeg?w=1024" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://makerspacenitrr.files.wordpress.com/2022/08/whatsapp-image-2022-08-25-at-6.56.54-am.jpeg?w=1024" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="C:\Users\rames\OneDrive\Desktop\makerspace\Screenshot (85) - Copy.png" class="d-block w-100" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://makerspacenitrr.files.wordpress.com/2022/08/whatsapp-image-2022-08-25-at-6.56.49-am-1.jpeg?w=768" class="d-block w-100" alt="..." />
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <h1 class="footer-section-mail-id">MAKERSAPCE</h1>
+                    <p class="footer-section-address">OFFICIAL WEBSITE OF MAKERSPACE OF NATIONAL INSTITUTE OF TECHNOLOGY, RAIPUR </p>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <h1 class="footer-section-mail-id">Address</h1>
+                    <p class="footer-section-address">
+                        Great Eastern Rd, Amanaka, Raipur, Chhattisgarh 492010
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <h1 class="footer-section-mail-id">CONTACT US</h1>
+                    <p class="footer-section-address">+91 9866044625</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
